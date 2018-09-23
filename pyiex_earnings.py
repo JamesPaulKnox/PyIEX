@@ -58,11 +58,3 @@ def yearCP(symbol, quarter=None):
 # CP = Change Percent
 def estCP(symbol, quarter=None):
     return generic("estimatedChangePercent", symbol, quarter)
-
-
-def actualEPS(symbol, quarter=None):
-    return generic("actualEPS", symbol, quarter)
-
-
-def actualEPS(symbol, quarter=None):
-    return generic("actualEPS", symbol, quarter)

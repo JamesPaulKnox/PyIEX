@@ -1,5 +1,8 @@
 # PyIEX Changelog
 
+### v0.2.1 September 23, 2018
++ Removed unnessecary repeats of the actualEPS function in pyiex_earnings
+
 ### v0.2.0: September 22, 2018
 + Created pyiex_config.py to store global config data & commands
 + Separated "Company" API calls into its own module (pyiex_company)
