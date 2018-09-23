@@ -34,7 +34,7 @@ def numberEstimates(symbol, quarter=None):
     return generic("numberOfEstimates", symbol, quarter)
 
 
-def surpriseEPS(symbol, quarter=None):
+def surpriseDollar(symbol, quarter=None):
     return generic("EPSSurpriseDollar", symbol, quarter)
 
 
@@ -58,3 +58,13 @@ def yearCP(symbol, quarter=None):
 # CP = Change Percent
 def estCP(symbol, quarter=None):
     return generic("estimatedChangePercent", symbol, quarter)
+
+
+def surprisePercent(symbol):
+    return requests.get(base_url + version + "/stock/" \
+           + symbol + "/stats") .json()["EPSSurprisePercent"]
+
+
+def ttmEPS(symbol):
+    return requests.get(base_url + version + "/stock/" \
+           + symbol + "/stats") .json()["ttmEPS"]

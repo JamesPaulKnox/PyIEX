@@ -174,3 +174,8 @@ def yearLow(symbol):
 def ytdChange(symbol):
     return requests.get(base_url + version +"/stock/" + symbol +
            "/quote?displayPercent=false").json()["ytdChange"]
+
+
+def yearChange(symbol):
+    return requests.get(base_url + version + "/stock/" \
+           + symbol + "/stats") .json()["week52change"]

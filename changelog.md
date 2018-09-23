@@ -1,5 +1,47 @@
 # PyIEX Changelog
 
+### v0.4.0 September 23, 2018
++ Added surprisePercent to pyiex_earnings
++ Added ttmEPS to pyiex_earnings
++ Renamed surpriseEPS to surpriseDollar (pyiex_earnings)
++ Created pyiex_keystats
++ Added beta
++ Added shortInterest
++ Added shortDate
++ Added dividentRate
++ Added dividendYield
++ Added exDividentRate
++ Added sharesOutstanding
++ Added float
++ Added returnOnEquity
++ Added ebitda
++ Added revenue
++ Added grossProfit
++ Added cash
++ Added debt
++ Added revenuePerShare
++ Added revenuePerEmployee
++ Added peRatioHigh
++ Added peRatioLow
++ Added returnOnAssets
++ Added returnOnCapital
++ Added profitMargin
++ Added priceToSales
++ Added priceToBook
++ Added day200MovingAvg
++ Added day50MovingAvg
++ Added institutionPercent
++ Added insiderPercent
++ Added shortRatio
++ Added year5ChangePercent
++ Added year2ChangePercent
++ Added year1ChangePercent
++ Added ytdChangePercent
++ Added month6ChangePercent
++ Added month3ChangePercent
++ Added month1ChangePercent
++ Added day5ChangePercent
+
 ### v0.3.1 September 23, 2018
 + Fixed issue #2 - sectorPerformance now returns a precise dict with
 the following key:pair {sector:performance}
