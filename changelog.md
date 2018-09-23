@@ -1,5 +1,44 @@
 # PyIEX Changelog
 
+### v0.3.0 September 23, 2018
++ Created pyiex_quote to access /stock/{symbol}/quote information
++ Added calculationPrice
++ Added openPrice
++ Added openTime
++ Added closePrice
++ Added closeTime
++ Added highPrice
++ Added lowPrice
++ Added latestPrice
++ Added latestSource
++ Added latestTime
++ Added latestUpdate
++ Added latestVolume
++ Added iexRealtimePrice
++ Added iexRealtimeSize
++ Added iexLastUpdated
++ Added delayedPrice
++ Added delayedPriceTime
++ Added extPrice
++ Added extChange
++ Added extChangePercent
++ Added extPriceTime
++ Added changePrice
++ Added changePercent
++ Added iexMarketPercent
++ Added iexVolume
++ Added avgTotalVolume
++ Added iexBidPrice
++ Added iexBidSize
++ Added iexAskPrice
++ Added iexAskSize
++ Added marketCap
++ Added peRatio
++ Added yearHigh
++ Added yearLow
++ Added ytdChange
+
+
 ### v0.2.1 September 23, 2018
 + Removed unnessecary repeats of the actualEPS function in pyiex_earnings
 
