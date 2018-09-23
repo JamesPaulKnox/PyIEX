@@ -1,5 +1,9 @@
 # PyIEX Changelog
 
+### v0.3.1 September 23, 2018
++ Fixed issue #2 - sectorPerformance now returns a precise dict with
+the following key:pair {sector:performance}
+
 ### v0.3.0 September 23, 2018
 + Created pyiex_quote to access /stock/{symbol}/quote information
 + Added calculationPrice
