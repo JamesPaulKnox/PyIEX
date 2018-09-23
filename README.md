@@ -7,3 +7,5 @@ _Please let me know if you find any bugs or if you have feature requests!_
 
 **NEED HELP?** Check out the wiki for documentation. It's rather lacking in details, but it should give you an idea of what was
 going through my mind when I added a certain function.
+
+This project uses IEX's API for all data. As such, I am obligated to disclaim the following: **“Data provided for free by [IEX](https://iextrading.com/developer). [View IEX’s Terms of Use](https://iextrading.com/api-exhibit-a/).”**
